@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercicio_05{
+public class Exercicio_06{
     public static void main(String[] args) {
         Scanner ler = new Scanner(System.in);
 
@@ -9,7 +9,13 @@ public class Exercicio_05{
         System.out.println("Informe um ano:");
         Ano = ler.nextInt();
 
-        String AnoVerdadeiro = (Ano < 15)
+        String resultado =
+                (Ano % 400 == 0) ? "Ano bissexto" :
+                (Ano % 100 == 0) ? "Nao e bissexto" :
+                (Ano % 4 == 0) ? "Ano bissexto" :
+                "Nao e bissexto";
+
+        System.out.println(resultado);
  }
     }
 
