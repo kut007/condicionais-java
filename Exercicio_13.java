@@ -3,12 +3,12 @@ import java.util.Scanner;
 public class Exercicio_13 {
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+        Scanner ler = new Scanner(System.in);
 
         int mes;
 
         System.out.print("Digite o numero do mes 1-12: ");
-        mes = sc.nextInt();
+        mes = ler.nextInt();
 
 
         switch (mes) {

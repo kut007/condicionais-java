@@ -3,16 +3,16 @@ import java.util.Scanner;
 public class Exercicio_14 {
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
+        Scanner ler = new Scanner(System.in);
 
         System.out.print("Digite num1: ");
-        int num1 = sc.nextInt();
+        int num1 = ler.nextInt();
 
         System.out.print("Digite num2: ");
-        int num2 = sc.nextInt();
+        int num2 = ler.nextInt();
 
         System.out.print("Digite num3: ");
-        int num3 = sc.nextInt();
+        int num3 = ler.nextInt();
 
 
         if (num1 > num2 && num1 > num3) {
